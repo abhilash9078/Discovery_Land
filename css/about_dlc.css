@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.main-container9 {
+    height: 100%;
+    width: 100%;
+}
+
+.header-main5 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: url(../assets/dimg1.jpg);
+    background-size: cover;
+    background-position: center;
+    columns: #fff;
+    justify-content: space-around;
+    padding-top: 1rem;
+}
+
+.img-gallery2 {
+    width: 20vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#img11 {
+    width: 12vw;
+    height: 6vh;
+    border-radius: 1rem;
+    cursor: pointer;
+    position: relative;
+    bottom: 3rem;
+}
+
+.text4 {
+    height: 40%;
+    width: 30vw;
+    position: relative;
+    left: 22rem;
+    top: 3rem;
+    font-size: 70px;
+    font-weight: 100;
+    font-family: serif;
+    color: white;
+}
+
+.header-main5 ul {
+    width: 58%;
+    height: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    left: 5rem;
+}
+
+.header-main5 ul li {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.header-main5 ul li a {
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+.header-main5 ul li a:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.section-2 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    line-height: 1.4;
+}
+
+.one {
+    font-weight: 200;
+    font-family: none;
+    opacity: 0.8;
+
+}
+
+.section-3 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.our-mission {
+    height: 100vh;
+    width: 40%;
+    flex-direction: column;
+    display: flex;
+    line-height: 1.6;
+    gap: 2rem;
+    justify-content: center;
+    position: relative;
+    left: 8rem;
+}
+
+.our-mission h3 {
+    font-size: 40px;
+    opacity: 0.8;
+    font-family: serif;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.p {
+    opacity: 0.6;
+}
+
+
+.popz-img {
+    height: 100vh;
+    width: 40%;
+}
+
+#i-2 {
+    width: 35vw;
+    height: 100vh;
+}
+
+.section-4 {
+    width: 100%;
+    height: 100vh;
+}
+
+#i-3 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 8rem;
+}
+
+.section-5 {
+    width: 100%;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(29, 37, 32);
+    margin-top: 15rem;
+}
+
+#sec-5 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+#story {
+    width: 30%;
+    height: 50vh;
+    font-family: serif;
+    font-size: 40px;
+    opacity: 0.9;
+}
+
+.p1 {
+    line-height: 2rem;
+    opacity: 0.8;
+}
+
+#play {
+    margin-top: 5rem;
+    width: 12rem;
+    height: 5rem;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#i-4 {
+    width: 100%;
+    height: 100vh;
+}
+
+.section-6{
+    width: 100%;
+    height: 100vh;
+    margin-top: 8rem;
+}
+
+#i-5{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.section-7{
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.Design{
+    height: 85%;
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+    line-height: 1.6;
+    gap: 2rem;
+    position: relative;
+    top: 8rem;
+    right: 5rem;
+
+}
+
+.Design h3 {
+    font-size: 40px;
+    opacity: 0.8;
+    font-family: serif;
+    font-weight: 200;
+    opacity: 0.8;
+}
+
+.p1 {
+    opacity: 0.6;
+}
+
+
+.sec-7{
+    height: 100%;
+    width: 32%;
+    margin-left: 5rem;
+
+}
+
+#i-6{
+    width: 100%;
+    height: 700px;
+}
+
+#i-7{
+width: 100%;
+height: 40vh;
+position: relative;
+top: 8rem;
+}
+
+.section-8{
+    width: 100%;
+    height: 100vh;
+    margin-top: 7rem;
+}
+#i-8{
+    width: 100%;
+    height: 100vh;
+    }
+
+.section-9{
+    width: 100%;
+    height: 950px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8rem;
+}
+
+.Design9{
+    height: 85%;
+    width: 35%;
+    flex-direction: column;
+    display: flex;
+    line-height: 1.6;
+    gap: 2rem;
+    position: relative;
+    top: 8rem;
+
+}
+
+.Design9 h3 {
+    font-size: 40px;
+    opacity: 0.8;
+    font-family: serif;
+    font-weight: 200;
+    opacity: 0.8;
+    margin-left: 4rem;
+
+}
+
+.p9 {
+    opacity: 0.6;
+    margin-left: 4rem;
+}
+
+
+.sec-9{
+    height: 100%;
+    width: 32%;
+
+}
+
+#i-9{
+    width: 100%;
+    height: 700px;
+}
+
+#i-10{
+    width: 100%;
+    height: 40vh;
+    position: relative;
+    top: 8rem;
+    }
+
+.section-10 {
+    display: flex;
+    width: 100%;
+    height: 550px;
+    background: url(../assets/dimg13.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 3rem;
+
+}
+#worlds1{
+    font-family: sans-serif;
+    font-weight: lighter;
+    font-size: 4rem;
+}
+#explore {
+    width: 10rem;
+    height: 4rem;
+    cursor: pointer;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+}
+
+ .footer-container5 {
+    width: 100%;
+    height: 500px;
+    background: rgb(26, 34, 31); 
+    color: #fff;
+}
+
+.footer-container6 {
+    width: 60%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    float: right;
+}
+
+.footerclass7 {
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 8rem;
+
+}
+
+.footerclass8 {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.footerclass7 h4 {
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+.footerclass7 h4:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.footerclass8 h4 {
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.6s ease;
+}
+
+.footerclass8 h4:hover {
+    background-color: #fff;
+    color: black;
+}
+
+
+.footerclass7 h5 {
+    opacity: 0.6;
+    margin-left: 1.2rem;
+} 
